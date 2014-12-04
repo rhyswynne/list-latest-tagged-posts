@@ -50,3 +50,5 @@ To install, please do the following:-
 
 = 1.0 =
 * First Release
+
+Total Time Taken: 50 minutes
