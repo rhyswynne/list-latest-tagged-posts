@@ -1,10 +1,15 @@
 List Latest Tagged Posts
 ========================
 Contributors: rhyswynne
+
 Donate link: 
+
 Tags: list, tags, tagged, wpquery
+
 Requires at least: 4.1
+
 Tested up to: 4.1
+
 Stable tag: 1.0
 
 Lists the latest posts associated with a tag, accessible via a shortcode.
