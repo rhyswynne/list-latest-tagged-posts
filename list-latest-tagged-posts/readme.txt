@@ -5,6 +5,7 @@ Tags: list, tags, tagged, wpquery
 Requires at least: 4.1
 Tested up to: 4.1
 Stable tag: 1.0
+Licence: GPLv2 or Later
 
 Lists the latest posts associated with a tag, accessible via a shortcode.
 
