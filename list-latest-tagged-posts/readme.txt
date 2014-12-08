@@ -1,6 +1,6 @@
 === List Latest Tagged Posts ===
 Contributors: rhyswynne
-Donate link: 
+Donate link: http://winwar.co.uk/plugins/list-latest-tagged-posts/
 Tags: list, tags, tagged, wpquery
 Requires at least: 4.1
 Tested up to: 4.1
@@ -27,11 +27,11 @@ Why don't you?
 = For Support =
 We offer support in two places:-
 
-* Support on the [WordPress.org Support Board](http://wordpress.org/support/plugin/)
+* Support on the [WordPress.org Support Board](https://wordpress.org/support/plugin/list-latest-tagged-posts)
 * A [priority support forum](http://winwar.co.uk/priority-support/), which offers same-day responses.
 
 = On Github =
-This project is now on github, [you can view the repository here](https://github.com/rhyswynne/inline-tweet-sharer/). There are other versions, but this is the one I've put up, so where all the developmental will be tracked.
+This project is now on github, [you can view the repository here](https://github.com/rhyswynne/list-latest-tagged-posts/). There are other versions, but this is the one I've put up, so where all the developmental will be tracked.
 
 == Installation ==
 
