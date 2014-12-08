@@ -8,14 +8,14 @@
  */
 /*
 Plugin Name: List Latest Tagged Posts
-Plugin URI:
+Plugin URI: http://winwar.co.uk/plugins/list-latest-tagged-posts/
 Description: Lists the latest posts associated with a tag, accessible via a shortcode.
 Version: 1.0
 Author: Winwar Media
 Author URI: http://winwar.co.uk
 Tags: list, tags, tagged, wpquery
 License: GPLv2 or later
-Text Domain:
+Text Domain: 
 */
 
 /*
@@ -81,13 +81,20 @@ function lltp_get_latest_posts( $tag = "", $limit = -1 ) {
 }
 
 
-
+/**
+ * Parses the shortcode & attributes.
+ * @param  string $atts 					The string listed of all the attributes.
+ * @return string $shortcodereturnstring	The returned shortcode string from lltp_get_latest_posts()
+ */
 function lltp_shortcode( $atts ) {
 	$atts = shortcode_atts( array(
 			'tag' => '',
 			'limit' => ''
 		), $atts );
 
-	return lltp_get_latest_posts( $atts['tag'], $atts['limit'] );
+	$shortcodereturnstring = "";
+	$shortcodereturnstring = lltp_get_latest_posts( $atts['tag'], $atts['limit'] );
+
+	return $shortcodereturnstring;
 }
 add_shortcode( 'latest_tag_posts', 'lltp_shortcode' );
