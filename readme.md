@@ -10,7 +10,7 @@ Requires at least: 4.1
 
 Tested up to: 4.1
 
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 Lists the latest posts associated with a tag, accessible via a shortcode.
 
@@ -46,6 +46,10 @@ Attributes
 
 Changelog
 =========
+
+= 1.0.1 = 
+* Fixed an issue that caused the limit functionality not work.
+* Found out about get_the_title_attribute(), used it.
 
 1.0
 ---

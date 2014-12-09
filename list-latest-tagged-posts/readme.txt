@@ -4,7 +4,7 @@ Donate link: http://winwar.co.uk/plugins/list-latest-tagged-posts/
 Tags: list, tags, tagged, wpquery
 Requires at least: 4.1
 Tested up to: 4.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 Licence: GPLv2 or Later
 
 Lists the latest posts associated with a tag, accessible via a shortcode.
@@ -48,6 +48,12 @@ To install, please do the following:-
 * limit - the amount of posts to show - defaults to all posts. 
 
 == Changelog ==
+
+= 1.0.1 = 
+* Fixed an issue that caused the limit functionality not work.
+* Found out about get_the_title_attribute(), used it.
+
+Time Taken: 10 minutes.
 
 = 1.0 =
 * First Release
