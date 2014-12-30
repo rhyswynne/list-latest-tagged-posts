@@ -46,8 +46,12 @@ Attributes
 
 Changelog
 =========
+1.0.2
+-----
+* Fixed a bug, with the the_title_attribute, now doesn't echo.
 
-= 1.0.1 = 
+1.0.1
+-----
 * Fixed an issue that caused the limit functionality not work.
 * Found out about get_the_title_attribute(), used it.
 
